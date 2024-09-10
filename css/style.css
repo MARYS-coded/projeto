@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans serif;
+    /*background color:*/
+    margin:0;
+    padding 0;
+    /*Header style*/
+}
+    header { 
+    background-color:#fef9d8;
+    padding: 33px 10px;
+    display: flexible;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+
+    .gafotos{
+        width: 370px;
+        height: 55vh; 
+        position: relative;
+        float: center;
+        margin: 70px 20px;
+        }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /*Navigation Renu*/
+    .menu-toggle {
+    display: none;
+    font-size: 20px;   
+    cursor: pointer;
+    }
+   
+    .text-box {
+        width: 363px;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    .logo{
+        width: 263px;
+    }
+    .foto{
+        width: 250px;
+        height: auto;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        position: relative;
+        float: inline-start;
+    }
+    .conteudo{
+        margin: 0 auto;
+        width: 1280px; 
+        height: auto;
+        background-color: #2f4424;
+    }
+    footer {
+        padding-top: 2px;
+        color: #fef9d8;
+        position: relative;
+        clear: both;
+        text-align: center;
+        background-color: #2f4424;
+        height: 50px;
+    }
