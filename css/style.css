@@ -13,10 +13,43 @@ body {
     justify-content: space-between;
     
     }
+    /* Reset básico para garantir uma aparência consistente */
+.navbar {
+    background-color: #2F4424; /* Cor de fundo */
+    overflow: hidden; /* Evita problemas com flutuação */
+}
+
+/* Estilos para a lista do menu */
+.nav-list {
+    display: flex;
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+/* Estilos para cada item do menu */
+.nav-item {
+    margin: 0;
+    display: inline;
+    font-size: 1.2rem;
+}
+
+/* Estilos para os links do menu */
+.nav-item a {
+    display: block;
+    padding: 14px 20px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    text-align: center; /* Alinha o texto ao centro */
+}
+
+/* Estilos para os links ao passar o mouse */
+.nav-item a:hover {
+    background-color: #575757; /* Cor de fundo ao passar o mouse */
+}
+
 
     .gafotos{
         width: 370px;
-        height: 55vh; 
+        height: 49vh; 
         position: relative;
         float: center;
         margin: 70px 20px;
@@ -64,4 +97,45 @@ body {
         text-align: center;
         background-color: #2f4424;
         height: 50px;
+    }
+
+    /*BOtÃ£o*/
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+      /* Tamanho da fonte em telas menores */
+      /*letter-spacing: 0.2rem; /* EspaÃ§amento entre letras em telas menores */
+    }
+  
+  
+  /* Responsividade para celulares */
+  @media (max-width: 480px) {
+  
+    h1 {
+      font-size: 1.8rem;
+      /* Tamanho da fonte em telas pequenas */
+      /*letter-spacing: 0.1rem; /* EspaÃ§amento entre letras em telas pequenas */
+    }
+  
+    section input {
+      width: 17rem;
+      /* Largura total dos inputs em telas pequenas */
+    }
+  
+    section button {
+      padding: 0.6rem 1rem;
+      /* EspaÃ§amento interno do botÃ£o em telas pequenas */
+      font-size: 0.9rem;
+      /* Tamanho da fonte do botÃ£o em telas pequenas */
     }
