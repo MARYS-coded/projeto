@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans serif;
+    /*background color:*/
+    margin:0;
+    padding 0;
+    /*Header style*/
+}
+    header { 
+    background-color:#fef9d8;
+    padding: 33px 10px;
+    display: flexible;
+    align-items: center;
+    justify-content: space-between;
+    
+    }
+
+    .gafotos{
+        width: 370px;
+        height: 49vh; 
+        position: relative;
+        float: center;
+        margin: 70px 20px;
+        }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /*Navigation Renu*/
+    .menu-toggle {
+    display: none;
+    font-size: 20px;   
+    cursor: pointer;
+    }
+   
+    .text-box {
+        width: 363px;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    .logo{
+        width: 263px;
+    }
+    .foto{
+        width: 250px;
+        height: auto;
+        margin-right: 25px;
+        margin-bottom: 25px;
+        position: relative;
+        float: inline-start;
+    }
+    .conteudo{
+        margin: 0 auto;
+        width: 1280px; 
+        height: auto;
+        background-color: #2f4424;
+    }
+    footer {
+        padding-top: 2px;
+        color: #fef9d8;
+        position: relative;
+        clear: both;
+        text-align: center;
+        background-color: #2f4424;
+        height: 50px;
+    }
+
+    /*BOtÃ£o*/
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+  
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+      /* Tamanho da fonte em telas menores */
+      /*letter-spacing: 0.2rem; /* EspaÃ§amento entre letras em telas menores */
+    }
+  
+  
+  /* Responsividade para celulares */
+  @media (max-width: 480px) {
+  
+    h1 {
+      font-size: 1.8rem;
+      /* Tamanho da fonte em telas pequenas */
+      /*letter-spacing: 0.1rem; /* EspaÃ§amento entre letras em telas pequenas */
+    }
+  
+    section input {
+      width: 17rem;
+      /* Largura total dos inputs em telas pequenas */
+    }
+  
+    section button {
+      padding: 0.6rem 1rem;
+      /* EspaÃ§amento interno do botÃ£o em telas pequenas */
+      font-size: 0.9rem;
+      /* Tamanho da fonte do botÃ£o em telas pequenas */
+    }
+  
